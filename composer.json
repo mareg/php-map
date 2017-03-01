@@ -1,13 +1,8 @@
 {
-    "name": "plasmaconduit/map",
-    "version": "0.1.11",
-    "repositories": [
-        { "type" : "vcs", "url": "https://github.com/mareg/php-option" },
-        { "type" : "vcs", "url": "https://github.com/mareg/php-either" },
-        { "type" : "vcs", "url": "https://github.com/mareg/php-map" }
-    ],
+    "name": "mareg/map",
+    "version": "0.1.12",
     "require": {
-        "plasmaconduit/option": "0.2.*"
+        "mareg/option": "0.2.*"
     },
     "require-dev": {
         "phpspec/phpspec2": "*"
